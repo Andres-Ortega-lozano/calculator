@@ -51,6 +51,7 @@ button:active {
   font-size: 25px;
   pointer-events: none;
   color: #ffffff;
+  border: none;
 }
 
 .operator {
