@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(101, 102, 101);
+}
+
+.container {
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: black;
+}
+.container input[type="text"] {
+  background-color: rgb(0, 0, 0);
+}
+
+.buttons {
+  max-width: 300px;
+  display: grid;
+  border-radius: 10px;
+  padding: 10px 20px 20px;
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid blue;
+  font-size: 20px;
+  box-shadow: 30px 30px 30px 5px grey(0, 0, 0, 0.05);
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(172, 164, 164);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#display {
+  height: 80px;
+  width: 85%;
+  text-align: right;
+  max-width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 25px;
+  pointer-events: none;
+  color: rgb(170, 44, 44);
+}
+
+.operator {
+  color: rgb(99, 121, 37);
+}
+
+.operator1 {
+  color: rgb(186, 10, 10);
+}
+
+.operator2 {
+  color: white;
+}
