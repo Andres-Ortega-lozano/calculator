@@ -50,7 +50,7 @@ button:active {
   margin-top: 20px;
   font-size: 25px;
   pointer-events: none;
-  color: rgb(170, 44, 44);
+  color: #ffffff;
 }
 
 .operator {
