@@ -18,6 +18,7 @@ buttons.forEach((btn) => {
 
 document.addEventListener("keyup", (e) => {
     console.log(e.key);
+    display.value += e.key;
 })
 
 
